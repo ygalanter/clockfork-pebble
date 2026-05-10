@@ -1,0 +1,31 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Steampunk Gears"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Features"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "AnimationEnabled",
+        "label": "Animation (gear + second hand)",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "TickingEnabled",
+        "label": "Ticking sound",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]

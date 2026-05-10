@@ -1,0 +1,182 @@
+{
+  "name": "clockwork",
+  "author": "Pebble Watchface",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.0.8"
+  },
+  "pebble": {
+    "displayName": "Clockwork",
+    "uuid": "6324607b-984a-44ef-8555-5fa123620c80",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "messageKeys": [
+      "AnimationEnabled",
+      "TickingEnabled"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "BACKGROUND",
+          "file": "images/background.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "FRONT_DIAL",
+          "file": "images/front_dial.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_0",
+          "file": "images/gear_top_0.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_1",
+          "file": "images/gear_top_1.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_2",
+          "file": "images/gear_top_2.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_3",
+          "file": "images/gear_top_3.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_4",
+          "file": "images/gear_top_4.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_5",
+          "file": "images/gear_top_5.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_6",
+          "file": "images/gear_top_6.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GEAR_TOP_7",
+          "file": "images/gear_top_7.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_0",
+          "file": "images/digit1_0.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_1",
+          "file": "images/digit1_1.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_2",
+          "file": "images/digit1_2.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_3",
+          "file": "images/digit1_3.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_4",
+          "file": "images/digit1_4.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_5",
+          "file": "images/digit1_5.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_6",
+          "file": "images/digit1_6.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_7",
+          "file": "images/digit1_7.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_8",
+          "file": "images/digit1_8.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT1_9",
+          "file": "images/digit1_9.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_0",
+          "file": "images/digit2_0.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_1",
+          "file": "images/digit2_1.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_2",
+          "file": "images/digit2_2.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_3",
+          "file": "images/digit2_3.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_4",
+          "file": "images/digit2_4.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_5",
+          "file": "images/digit2_5.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_6",
+          "file": "images/digit2_6.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_7",
+          "file": "images/digit2_7.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_8",
+          "file": "images/digit2_8.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT2_9",
+          "file": "images/digit2_9.png"
+        }
+      ]
+    }
+  }
+}
